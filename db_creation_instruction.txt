@@ -1,0 +1,23 @@
+To initialize and create database :
+db.create_all()
+
+To add data in database :
+db.session.add(database_object)
+
+To push added data into database :
+db.session.commit()
+
+To query all data :
+db_name.query.all()
+
+To query 1st data :
+db_name.query.first()
+
+To query last data :
+db_name.query.last()
+
+To query some specific data :
+db_name.query.filter_by(db_field="specific_data").all()
+
+To query one specific data :
+db_name.query.get(id)
